@@ -1,1 +1,31 @@
+var total_images = 24;
+var image = document.getElementById('riimu');
+var random_number = Math.floor((Math.random() * total_images));
+var random_img = [];
 
+random_img[0] = '<img src="assets/img/portfolio/fullsize/fehu.jpg"></a>';
+random_img[1] = '<img src="assets/img/portfolio/fullsize/uruz.jpg"></a>';
+random_img[2] = '<img src="assets/img/portfolio/fullsize/thurisaz.jpg"></a>';
+random_img[3] = '<img src="assets/img/portfolio/fullsize/ansuz.jpg"></a>';
+random_img[4] = '<img src="assets/img/portfolio/fullsize/raido.jpg"></a>';
+random_img[5] = '<img src="assets/img/portfolio/fullsize/kano.jpg"></a>';
+random_img[6] = '<img src="assets/img/portfolio/fullsize/gebo.jpg"></a>';
+random_img[7] = '<img src="assets/img/portfolio/fullsize/wunjo.jpg"></a>';
+random_img[8] = '<img src="assets/img/portfolio/fullsize/hagalaz.jpg"></a>';
+random_img[9] = '<img src="assets/img/portfolio/fullsize/nautiz.jpg"></a>';
+random_img[10] = '<img src="assets/img/portfolio/fullsize/isa.jpg"></a>';
+random_img[11] = '<img src="assets/img/portfolio/fullsize/jera.jpg"></a>';
+random_img[12] = '<img src="assets/img/portfolio/fullsize/eihwaz.jpg"></a>';
+random_img[13] = '<img src="assets/img/portfolio/fullsize/perth.jpg"></a>';
+random_img[14] = '<img src="assets/img/portfolio/fullsize/algiz.jpg"></a>';
+random_img[15] = '<img src="assets/img/portfolio/fullsize/sowelu.jpg"></a>';
+random_img[16] = '<img src="assets/img/portfolio/fullsize/teiwaz.jpg"></a>';
+random_img[17] = '<img src="assets/img/portfolio/fullsize/berkana.jpg"></a>';
+random_img[18] = '<img src="assets/img/portfolio/fullsize/ehwaz.jpg"></a>';
+random_img[19] = '<img src="assets/img/portfolio/fullsize/mannaz.jpg"></a>';
+random_img[20] = '<img src="assets/img/portfolio/fullsize/laguz.jpg"></a>';
+random_img[21] = '<img src="assets/img/portfolio/fullsize/inguz.jpg"></a>';
+random_img[22] = '<img src="assets/img/portfolio/fullsize/othila.jpg"></a>';
+random_img[23] = '<img src="assets/img/portfolio/fullsize/dagaz.jpg"></a>';
+
+image.innerHTML = random_img[random_number];
